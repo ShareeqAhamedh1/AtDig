@@ -1,0 +1,204 @@
+.web {
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#navbar {
+    background-color: #6B3CC9;
+    padding: 15px 15px; /* Adjusted padding for mobile */
+}
+
+h3 {
+    color: #6B3CC9;
+}
+
+#small-box {
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    padding: 24px 20px; /* Adjusted padding for mobile */
+    height: auto; /* Adjusted height for mobile */
+    border: 1px solid #3009df;
+    max-width: 530px; /* Adjusted width for mobile */
+    margin-top: 20px; /* Added margin for better spacing */
+
+    position: absolute;
+    bottom: 15%;
+    left: 2%;
+    transform: translate(5%, 50%);
+}
+
+#small-box p {
+    font-size: 30px; /* Adjusted font size for mobile */
+    color: #FFFFFF;
+    font-weight: 800;
+    padding: 15px;
+}
+
+#small-box button {
+    background-color: #F28D35;
+    border: none;
+    padding: 12px 20px;
+    width: 100%; /* Adjusted width for mobile */
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#banner-image {
+    height: auto; /* Adjusted height for mobile */
+    width: 100%;
+}
+
+.img-cont{
+    width: 346px; height: 346px;
+}
+.content-box{
+    margin-left: 15% !important;
+}
+.content{
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+.frequent{
+    text-align: center;
+}
+.text{
+    color: #9C9991;
+    text-align: center;
+}
+.paragraph-container {
+    width: 80%; /* Set the desired width */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.text,
+.text-d {
+    width: 100%; 
+    font-weight: 500;
+}
+
+#freq{
+    margin-bottom: 5%;
+}
+
+.footer{
+    background-color: #6B3CC9;
+    padding: 30px 0 12px 100px;
+}
+.footer-p{
+    font-size: 16px;
+}
+.marketing {
+    width: 500px !important;
+    font-weight: 600;
+    font-size: 21px;
+    margin-right: 20px;
+}
+
+.marketing ul {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+@media (max-width: 1200px) {
+    #navbar {
+        padding: 15px 10px; /* Adjusted padding for smaller screens */
+    }
+
+    #small-box {
+        background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        padding: 24px 20px; /* Adjusted padding for mobile */
+        height: auto; /* Adjusted height for mobile */
+        border: 1px solid #3009df;
+        max-width: 530px; /* Adjusted width for mobile */
+        margin-top: 20px; /* Added margin for better spacing */
+    
+        position: absolute;
+        bottom: 45%;
+        left: 2%;
+        transform: translate(5%, 50%);
+    }
+    
+    #small-box p {
+        font-size: 30px; /* Adjusted font size for mobile */
+        color: #FFFFFF;
+        font-weight: 800;
+        padding: 15px;
+    }
+}
+@media (max-width: 768px) {
+    #navbar {
+        padding: 15px 10px; /* Adjusted padding for smaller screens */
+    }
+
+    body{
+        width: auto;
+    }
+    #small-box {
+        position: relative; 
+        max-width: 100%; 
+      
+        transform: none;
+        bottom: auto; 
+        left: auto;
+        margin-top: 0;
+    }
+    .frequent{
+        text-align: left;
+    }
+    .frequent h3{
+        text-align: center;
+    }
+    .frequent p{
+        text-align: left;
+    }
+    
+   
+}
+@media (max-width: 375px) {
+    #navbar {
+        padding: 15px 10px; /* Adjusted padding for smaller screens */
+    }
+    .content{
+        width: 80%;
+    }
+    .img-cont{
+        width: 80%;
+    }
+
+    #small-box {
+        position: relative; 
+        max-width: 100%; 
+      
+        transform: none;
+        bottom: auto; 
+        left: auto;
+        margin-top: 0;
+    }
+    .footer{
+        text-align: left !important;
+        background-color: #6B3CC9;
+        padding: 30px 0 12px 0;
+    }
+    .marketing ul{
+        text-align: left !important;
+        
+    }
+   .footer-p{
+    text-align: left !important;
+   }
+   .marketing{
+    text-align: left;
+   }
+    
+}
